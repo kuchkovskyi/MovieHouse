@@ -1,19 +1,41 @@
 import React, {Fragment, Component} from 'react';
+import { Routes, Route } from 'react-router-dom';
+
 import './App.css';
-import './Components/header/header';
-import Header from './Components/header/header';
+import Header from './header/header';
+import Footer from './footer/footer';
+
+import { SignIn } from './pages/AuthPages/signIn';
+import { SignUp } from './pages/AuthPages/signUp';
+import { HomePage } from './pages/homePage/homePage';
+import { NotFoundPage } from './pages/notFoundPage/notFoundPage';
 
 export default class App extends Component {
   render () {
     return (
       <Fragment>
-        <Header></Header>
+        <body>
+          <header>
+            <Header/>
+          </header>
 
-        <main>
+          <main>
+            <Routes>
+              <Route path='/' element={<HomePage />}/>
+              <Route path='/signIn' element={<SignIn />}/>
+              <Route path='/registration' element={<SignUp />}/>
+              <Route />
+              <Route />
 
-        </main>
 
-        
+              <Route path='*' element={<NotFoundPage />}/>
+            </Routes>
+          </main>
+
+          <footer>
+            <Footer />
+          </footer>
+        </body>
       </Fragment>
     )
   }
