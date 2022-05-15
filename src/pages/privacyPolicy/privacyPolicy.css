@@ -1,0 +1,31 @@
+.light {
+    background-color: ghostwhite;
+}
+
+.dark {
+    background-color: #cdcdcd;
+}
+
+.pp-subtitle {
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.pp-strong {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.pp-text {
+    word-wrap: break-word;
+}
+
+.pp-link {
+    color: #4576d0;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.pp-menu-item {
+    width: 100%;
+}

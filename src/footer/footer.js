@@ -10,13 +10,13 @@ export default class Footer extends Component {
                 <div>
                     <div className="footer-container">
                         <div className="footer-element">
-                            <Link to="/" className="footer-link">
+                            <Link to="/terms-and-conditions" className="footer-link">
                                 Terms and conditions
                             </Link>
                         </div>
 
                         <div className="footer-element">
-                            <Link to="/" className="footer-link">
+                            <Link to="/privacy-policy" className="footer-link">
                                 Privacy
                             </Link>
                         </div>

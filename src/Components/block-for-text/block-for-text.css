@@ -1,0 +1,22 @@
+.tb {
+    padding: 5px 10px;
+}
+
+.tb-light {
+    background-color: ghostwhite;
+    color: black;
+}
+
+.tb-dark {
+    background-color: #cdcdcd;
+    color: black;
+}
+
+.tb-title {
+    font-weight: 500;
+}
+
+.tb-subtitle {
+    font-weight: 500;
+    text-decoration: underline;
+}
