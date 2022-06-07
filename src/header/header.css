@@ -2,7 +2,7 @@
 
 .menu {
     display: grid;
-    grid-template-columns: 1fr 9fr 0.5fr 0.5fr 1fr;
+    grid-template-columns: 1fr 9fr 1fr 1fr;
 
     background-color: transparent;
     color: ghostwhite;
@@ -91,7 +91,7 @@
     }
 
     .menu {
-        grid-template-columns: 1fr 6fr 2fr 2fr 3fr;
+        grid-template-columns: 1fr 6fr 2fr 3fr;
     }
 
     .menu-item {
@@ -119,6 +119,10 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
+    .menu {
+        grid-template-columns: 1fr 6fr 2fr 3fr;
+    }
+
     .scnd-menu-link {
         font-size: 12px;
     }
@@ -130,7 +134,7 @@
     }
 
     .menu {
-        grid-template-columns: 1fr 6fr 1.5fr 1.5fr 2fr;
+        grid-template-columns: 1fr 6fr 1.5fr 2fr;
     }
 
     .header-link {
@@ -145,7 +149,7 @@
     }
 
     .menu {
-        grid-template-columns: 1fr 7fr 0.5fr 0.5fr 4fr;
+        grid-template-columns: 1fr 7fr 1fr 4fr;
     }
 
     .header-link {
@@ -160,7 +164,7 @@
     }
 
     .menu {
-        grid-template-columns: 1fr 9fr 0.5fr 0.5fr 2.5fr;
+        grid-template-columns: 1fr 9fr 1fr 2.5fr;
     }
 
     .header-link {
@@ -175,7 +179,7 @@
     }
 
     .menu {
-        grid-template-columns: 1fr 9fr 0.5fr 0.5fr 1.5fr;
+        grid-template-columns: 1fr 9fr 1fr 1.5fr;
     }
 
     .header-link {
@@ -190,7 +194,7 @@
     }
 
     .menu {
-        grid-template-columns: 1fr 9fr 0.5fr 0.5fr 1fr;
+        grid-template-columns: 1fr 9fr 1fr 1fr;
     }
     
     .header-link {

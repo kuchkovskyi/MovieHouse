@@ -1,0 +1,98 @@
+.stats {
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+}
+
+.main-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.stats-data {
+    text-align: center;
+    margin: 0;
+    font-weight: 500;
+}
+
+.space {
+    display: block;
+}
+
+.imdb-rates {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imdb-logo {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.poster-trailer {
+    display: grid;
+    grid-template-columns: 2fr 6.6fr 1fr;
+    margin: 1.5% 0;
+    grid-column-gap: 1.5%;
+}
+
+.movie-poster {
+    height: 360px;
+}
+
+.genre-description {
+    font-weight: 500;
+}
+
+.genres-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.genres-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2%;
+}
+
+.genre {
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 7px 7px;
+}
+
+.description-block {
+    display: grid;
+    grid-template-columns: 3.4fr 1fr;
+    background-color: black;
+    color: white;
+    padding: 3%;
+}
+
+td { border-bottom: 1px solid #000; padding: 10px 0; }
+
+table { width: 76%; }
+
+.table-title { font-weight: 600; }
+
+.actors {
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 3%;
+    background-color: #000;
+    color: ghostwhite;
+    padding: 4%;
+}
+
+.actors-image {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.actors-initials {
+    font-weight: 500;
+    text-decoration: underline;
+    text-align: center;
+}

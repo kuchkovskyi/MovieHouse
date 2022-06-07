@@ -24,12 +24,6 @@ const Header = props => {
                     </div>
 
                     <div className='menu-item'>
-                        <button className='btn btn-theme'>
-                            <i className='fa fa-sun-o'></i>
-                        </button>
-                    </div>
-
-                    <div className='menu-item'>
                         <Link to={'/signIn'} className='header-link'>
                                 Sign In                        
                         </Link>
