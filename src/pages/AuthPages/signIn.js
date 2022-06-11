@@ -1,7 +1,7 @@
 import Form from "../../Components/form/form";
 import './auth.css';
 
-const SignIn = (props) => {
+const SignIn = () => {
 
     return (
         <div className="content">

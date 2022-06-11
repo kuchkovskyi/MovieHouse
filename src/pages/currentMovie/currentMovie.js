@@ -48,7 +48,8 @@ const CurrentMovie = () => {
             <div className="poster-trailer">
                 <img alt={movie.name} src={movie.imageUrl} className="movie-poster"/>
                 <ReactPlayer url={movie.trailerUrl} 
-                    className="movie-trailer"/>
+                    className="movie-trailer"
+                    controls/>
                 <div className="space"></div>
             </div>
 
