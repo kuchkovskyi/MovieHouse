@@ -11,11 +11,29 @@ const HomePage = () => {
         })
     }, []);
 
+    const [value, setValue] = useState('');
+
+    const searchingMovies = movies.filter(movie => {
+        return movie.name.toLowerCase().includes(value.toLowerCase())
+    })
+
     return (
         <div className="content">
+
+            <div className="search-content">
+                <form className="search-form">
+                    <input type="text" placeholder="What film are you searching?"
+                    className="form-control search-control" 
+                    onChange={(event) => setValue(event.target.value)}/>
+                    <button className="btn btn-search">
+                        <i className="fa fa-search"/>
+                    </button>
+                </form>
+            </div>
+
             <div className="content-element">
                 {
-                    movies.map((element)=>(
+                    searchingMovies.map((element)=>(
                         <Link key={element.id} className="element" to={`/movies/${element.id}`}>
                             <img className="movie-image" alt={element.name} src={element.imageUrl}/>
                             <p className="movie-name">

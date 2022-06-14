@@ -18,12 +18,6 @@ const Header = () => {
                     <div className='menu-item header-empty'></div>
 
                     <div className='menu-item'>
-                        <button className='btn btn-search'>
-                            <i className='fa fa-search'></i>
-                        </button>
-                    </div>
-
-                    <div className='menu-item'>
                         <Link to={'/signIn'} className='header-link'>
                                 Sign In                        
                         </Link>

@@ -2,7 +2,7 @@
 
 .menu {
     display: grid;
-    grid-template-columns: 1fr 9fr 1fr 1fr;
+    grid-template-columns: 1fr 9fr 1fr;
 
     background-color: transparent;
     color: ghostwhite;
@@ -23,22 +23,6 @@
     text-decoration: none;
     color: ghostwhite;
     font-size: 28px;
-}
-
-.btn-search,
-.btn-theme {
-    border: 1px solid transparent;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    padding: 5px 12px;
-    font-weight: 500;
-}
-
-.btn-search:active,
-.btn-search:focus,
-.btn-theme:active,
-.btn-theme:focus {
-    box-shadow: none;
 }
 
 .header-link {
@@ -91,7 +75,7 @@
     }
 
     .menu {
-        grid-template-columns: 1fr 6fr 2fr 3fr;
+        grid-template-columns: 1fr 7fr 2fr;
     }
 
     .menu-item {
@@ -120,7 +104,7 @@
     }
 
     .menu {
-        grid-template-columns: 1fr 6fr 2fr 3fr;
+        grid-template-columns: 1fr 5fr 2fr;
     }
 
     .scnd-menu-link {
@@ -134,7 +118,7 @@
     }
 
     .menu {
-        grid-template-columns: 1fr 6fr 1.5fr 2fr;
+        grid-template-columns: 1fr 7fr 2fr;
     }
 
     .header-link {
@@ -149,7 +133,7 @@
     }
 
     .menu {
-        grid-template-columns: 1fr 7fr 1fr 4fr;
+        grid-template-columns: 1fr 7fr 2fr;
     }
 
     .header-link {
@@ -164,7 +148,7 @@
     }
 
     .menu {
-        grid-template-columns: 1fr 9fr 1fr 2.5fr;
+        grid-template-columns: 1fr 8fr 2fr;
     }
 
     .header-link {
@@ -179,7 +163,7 @@
     }
 
     .menu {
-        grid-template-columns: 1fr 9fr 1fr 1.5fr;
+        grid-template-columns: 1fr 8fr 1fr;
     }
 
     .header-link {
@@ -194,7 +178,7 @@
     }
 
     .menu {
-        grid-template-columns: 1fr 9fr 1fr 1fr;
+        grid-template-columns: 1fr 9fr 1fr;
     }
     
     .header-link {
